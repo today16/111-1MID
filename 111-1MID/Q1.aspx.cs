@@ -42,11 +42,11 @@ namespace _111_1MID {
             lb_Msg.Text = "";
             if (tb_Phone.Text == "")
             {
-                lb_Msg.Text += lb_Type.Text + "<br />" + tb_Account.Text + "先生/小姐，已完成掛號。" + "<br />" + "<br />";
+                lb_Msg.Text += lb_Type.Text + "<br />" + tb_Account.Text + "先生/小姐，已完成掛號。" + "<br />" ;
             }
             else
             {
-                lb_Msg.Text += lb_Type.Text + "<br />" + tb_Account.Text + "先生/小姐，已完成掛號。" + "<br />" + "連絡電話為" + tb_Phone.Text + "<br />" + "<br />";
+                lb_Msg.Text += lb_Type.Text + "<br />" + tb_Account.Text + "先生/小姐，已完成掛號。" + "<br />" + "連絡電話為" + tb_Phone.Text + "<br />" ;
             }
         }
 
